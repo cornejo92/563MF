@@ -1,0 +1,88 @@
+<ion-view view-title="{{'LABELS.SETTINGS' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button button-calm" ng-click="logout()">
+            {{'LOBBY_PAGE.LOGOUT' | translate}}
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side = "left">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <button class = "button button-bar button-calm" ng-click= "logout()">
+            Logout
+        </button>
+        <br>
+        <button class = "button button-bar button-calm" ng-click= "testConsoleLog()">
+            Console Log Test
+        </button>
+        <br>
+        <!-----
+        <form class="list">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Number of Dice
+            </div>
+            <select ng-model = "dice">
+              <option selected value = "1">1d</option>
+              <option value = "2">2d</option>
+              <option value = "3">3d</option>
+              <option value = "4">4d</option>
+            </select>
+          </label>
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Dice Sides
+            </div>
+            <select ng-model = "max">
+              <option selected value = "4">4</option>
+              <option value = "6">6</option>
+              <option value = "8">8</option>
+              <option value = "10">10</option>
+              <option value = "12">12</option>
+              <option value = "20">20</option>
+            </select>
+          </label>
+          <br>
+          <label class = "item">
+            <button class="button button-bar button-calm" ng-click = "displayCurrentResults(max, dice, dice)">
+              Submit
+            </button>
+          </label>
+        </form>
+        <div class="card">
+          <div class="item item-text-wrap">
+            {{currentResults}}
+          </div>
+        </div>
+        <div class = "row">
+            <button class = "margins button button-dark col col-23" ng-click="seeHistoryPopover1d($event)">1d</button>
+            <br>
+            <button class = "margins button button-dark col col-23" ng-click="seeHistoryPopover2d($event)">2d</button>
+            <br>
+            <button class = "margins button button-dark col col-23" ng-click="seeHistoryPopover3d($event)">3d</button>
+            <br>
+            <button class = "margins button button-dark col col-23" ng-click="seeHistoryPopover4d($event)">4d</button>
+        </div> 
+      ------>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

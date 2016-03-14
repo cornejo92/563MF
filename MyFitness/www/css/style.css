@@ -1,0 +1,131 @@
+/* Empty. Add your own CSS if you like */
+.homeChart {
+    float:right;   
+}
+.pieStatsHome {
+    float: left;
+    color: #333333;
+    font-family: "Helvetica";
+}
+.center {
+    text-align: center;
+}
+#homeCaloriesRemaining {
+    font-size: 0.8em;
+    color:#333333;
+}
+.row1{
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.column{
+    border: 1px solid gray;
+    margin-left:0px !important;
+    margin-right:0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+.columnMiddle{
+    border: 1px solid gray;
+}
+.sideButtonsDailyLog {
+    width: 12% !important;
+    height: 50px !important;
+    background-color: #33cd5f;
+    border-color: transparent;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    margin: 2px 0px 2px 0px;
+    padding: 0 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: bottom;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+}
+.sideButtonsDailyLog.button-balanced.active, .sideButtonsDailyLog.button-balanced.activated {
+      background-color: #28a54c; 
+    
+}
+.topButtonsDailyLog {
+    width: 100% !important;
+    height: 30px !important;
+    padding: 0 0px !important;
+}
+.topButtonsDailyLog.button-balanced.active, .topButtonsDailyLog.button-balanced.activated {
+      background-color: #28a54c; 
+    
+}
+#homeGoalPicture {
+    float:right;
+}
+#motivationStats{
+    float:left;
+}
+.popover {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 10;
+    display: block;
+    margin-top: 12px;
+    margin-left: -110px;
+    border-top-left-radius: 25% ;
+    border-top-right-radius: 25% ;
+    height: 10%;
+    width: 80%;
+    color: #333333;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    opacity: 5; 
+    
+}
+.popover-button {
+    width: 20px;
+    height: 20px;
+    border-color: transparent;
+    background-color: #f8f8f8;
+    color: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px;
+    min-width: 5px;
+    min-height: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    vertical-align: top;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+.popover-button.active, .popover-button.activated {
+    background-color: #e5e5e5; 
+    
+}
+
+.margins {
+    margin-bottom: 2px !important;
+    margin-left: 2px !important;
+    margin-top: 2px !important;
+    margin-right: 2px !important;
+}
+.no-animate {
+   -webkit-transition: none !important;
+   -o-transition: none !important;
+   -moz-transition: none !important;
+   transition: none !important;
+}
+.currentStats {
+    background-color: #11c1f3;
+    color: #fff;
+}

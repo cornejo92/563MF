@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+         "LANG": "it-it",
+        "TITLE": "I miei risultati",
+        "MENU": "Menu",
+        "TEST": "Test ",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "miaFisica",
+        "LOGIN": "Accesso",
+        "REGISTER": "Registro"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "Menu",
+        "LOGOUT": "Disconnettersi",
+        "TAKE_TEST": "Fare Test",
+        "MY_RESULTS": "I miei risultati"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Accesso",
+        "REMEMBER_ME": "Ricordati di me?",
+        "EMAIL": "Email",
+        "PASSWORD": "Parola d'ordine"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "Menu",
+        "OPTION_A": "Opzione A",
+        "OPTION_B": "Opzione B",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "Registro",
+        "EMAIL": "Email",
+        "USERNAME": "Nome Utente"
+        "FIRST_NAME": "Nome",
+        "LAST_NAME": "Cognome",
+        "COMPANY_OPTIONAL": "Compagnia (Opzionale)",
+        "AGE": "Età",
+        "SEX": "Sesso",
+        "HEIGHT": "Altezza",
+        "WEIGHT": "Peso",
+        "PASSWORD": "Parola d'ordine",
+        "REPEAT_PASSWORD": "Ripeti la password",
+        "SIGN_UP": "Registrazione"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "Menu",
+        "RESULTS": "Risultati"
+    },
+    "ERRORS": {
+        "ERROR": "Errore",
+        "GENERAL": "Qualcosa è andato storto , riprovare.",
+        "NULL": "La connessione con il server non ha avuto successo , controllare la connessione a Internet e riprovare più tardi.",
+        "LOGIN_401": "Nome utente o password errati.",
+        "422": "L'e-mail è già in uso.",
+        "SIGN_UP_401": "Uno o più campi non sono validi.",
+        "LOG_OUT": "Impossibile effettuare il logout in questo momento , riprovare.",
+        "PASSWORDS": "Le password devono essere identiche."
+    },
+    "LABELS": {
+        "HOME": "Casa",
+        "CALCULATORS": "Calcolatrici",
+        "WORKOUTS": "Esercizi",
+        "DAILYLOG": "Registro Giornaliero",
+        "SETTINGS": "Impostazioni"
+    }
+}

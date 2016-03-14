@@ -1,0 +1,93 @@
+<ion-view view-title="{{'LABELS.WORKOUTS' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side = "left">
+      <button class = "button icon ion-ios-arrow-back" ui-sref="workouts">
+      </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <div class="card">
+        <div class="item item-divider">
+          Deadlift
+        </div>
+        <div class="item item-text-wrap">
+          1. For each rep start in a low squat position and grab the bar with an overhand grip.
+          <br>
+          2. Sit back in your hips, push through your heels, ascend upward, and raise your torso until you’re in a full stand — maintain a tight core and straight back throughout the motion.
+          <br>
+          3. Slowly lower under control by dropping your torso and hips down until the bar touches the floor.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Bent Over Barbell Row
+        </div>
+        <div class="item item-text-wrap">
+          1. Hold a barbell in front of your body with an overhand grip slightly wider than shoulder width.
+          <br>
+          2. Tighten your core, straighten your back, and drop your torso down to 60º.
+          <br>
+          3. Powerfully contract your back and biceps, and pull the barbell upwards into the top of your core. Hold for 1s and return down to a full extension. Repeat.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Bent-Over One Arm Dumbbell Rows
+        </div>
+        <div class="item item-text-wrap">
+          1. Hold a barbell in front of your body with an overhand grip slightly wider than shoulder width.
+          <br>
+          2. Tighten your core, straighten your back, and drop your torso down to 60º.
+          <br>
+          3. Powerfully contract your back and biceps, and pull the barbell upwards into the top of your core. Hold for 1s and return down to a full extension. Repeat.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Pull Ups & Lat Pull Downs
+        </div>
+        <div class="item item-text-wrap">
+          1. Hang from a pull-up bar with your hands slightly wider than shoulder width — wider grips target the lats & teres; narrower grips hit more of the rhomboids and traps.
+          <br>
+          2. Contract your lats, tighten your core, and and pull your body up until the top of your chest is at bar height.
+          <br>
+          3. Slowly release down to the bottom until you’re at a full hang. Repeat.
+          <br>
+          4. If pull-ups are too difficult at first, work your way up with lat pull-downs.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          T-Bar Rows
+        </div>
+        <div class="item item-text-wrap">
+        1. Place a loaded barbell in between your legs. You can either use a narrow-grip cable attachment and place it under the bar, or directly hold the bar with a stagnated grip.
+        <br>
+        2. Drop your torso down to 45°, tighten your core, and maintain strong posture — keep your lower back stiff and don’t let it arch.
+        <br>
+        3. Contract your lats and traps and pull the bar up into your chest (2). Hold the contraction for 1s and slowly release the bar back down to the ground (1). Repeat.
+        </div>
+      </div>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

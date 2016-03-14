@@ -1,0 +1,99 @@
+<ion-view view-title="{{'LABELS.DAILYLOG' | translate}}">
+    <ion-nav-buttons side="right">
+        <button ng-controller = "AddItemsCtrl" class = "button icon ion-checkmark-circled" ng-click = "completeCurrentDay()">
+        </button>
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+      <div>
+        <button class = "button-balanced button button-bar" ui-sref = "add-cardio-exercises"> Cardiovascular Exercises</button>
+      </div>
+      <div class="card">
+          <div class="item item-text-wrap">
+            <p class = "pieStatsHome">
+                Stats For Today: <br> 
+                Protein: {{proteinPercentage}}% <br>
+                Fat: {{fatPercentage}}% <br>
+                Carbs: {{carbsPercentage}}%
+            </p>
+            <p class = "homeChart" ng-controller = "GraphController">
+              <canvas id="myChart" width="25" height="25" class = "homeChart"></canvas>
+            </p>
+          </div>
+        </div>
+        <div>
+            <button class = "button-balanced button button-bar" ui-sref = "add-strength-exercises">Strength Training</button>
+        </div>
+        <ion-list>
+          <ion-item ng-repeat="meal in meals">
+            <div class="card">
+              <div class="item item-divider">
+                Meal {{$index+1}}
+              </div>
+              <div class="item item-text-wrap">
+                <p class = "row">Name: {{meal.name}}</p>
+                <p class = "row">Calories: {{meal.calories}} kcal</p>
+                <p class = "row">Protein: {{meal.protein}} grams</p>
+                <p class = "row">Fat: {{meal.fat}} grams</p>
+                <p class = "row">Carbs: {{meal.carbs}} grams</p>
+              </div>
+            </div>
+            <span class="item-note">
+              {{meal.dateAdded | date:'EEEE, MMMM d, y h:mm a'}} <!---- {{meal.dateAdded | date: 'shortTime'}} ---->
+            </span>
+          </ion-item>
+        </ion-list>
+        <div class="row">
+          <div class="col column col-10">
+            <button class="button-balanced sideButtonsDailyLog">
+              1
+            </button>
+            <button class="button-balanced sideButtonsDailyLog">
+              3
+            </button>
+            <button class="button-balanced sideButtonsDailyLog">
+              5
+            </button>
+            
+          </div>
+          <br>
+          <div class="col columnMiddle">This One will have alot of text or content <br> alot of it <br> like alot <br> like this<br> yes this still <br> isnt over <br> more!<br></div>
+          <br>
+          <div class="col column col-10">
+            <button class="button-balanced sideButtonsDailyLog">
+              2
+            </button>
+            <button class="button-balanced sideButtonsDailyLog">
+              4
+            </button>
+            <button class="button-balanced sideButtonsDailyLog">
+              6
+            </button>
+          </div>
+        </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

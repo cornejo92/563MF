@@ -1,0 +1,71 @@
+<ion-view view-title="{{'LABELS.WORKOUTS' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side = "left">
+      <button class = "button icon ion-ios-arrow-back" ui-sref="workouts">
+      </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+      <div class="card">
+        <div class="item item-divider">
+          Pause Squat
+        </div>
+        <div class="item item-text-wrap">
+          Set up in a squat rack or cage. Grasp the bar as far apart as is comfortable and step under it. Squeeze your shoulder blades together and nudge the bar out of the rack. Step back and stand with your feet shoulder width and your toes turned out slightly. Take a deep breath and bend your hips back, then bend your knees to lower your body as far as you can without losing the arch in your lower back. Push your knees out as you descend. Hold the bottom position for two seconds.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Reverse Lunge
+        </div>
+        <div class="item item-text-wrap">
+          Stand with the dumbbells still in your hands and step back with your right foot. Lower your body until your front thigh is parallel to the floor and your rear knee nearly touches the floor. Keep your torso upright. Step forward to return to the starting position. Complete all reps on one leg, then switch legs. That’s one set.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Kettlebell Swing
+        </div>
+        <div class="item item-text-wrap">
+          Stand with feet hip-width apart and the weight on the floor. Grasp the kettlebell with both hands (palms facing you) and, keeping your lower back flat, extend your hips to raise it off the floor. From there, take a deep breath and bend your hips back, allowing the weight to swing back between your legs. Explosively extend your hips and exhale—allowing the momentum to swing the weight up to shoulder level. Control the descent, but use the momentum to begin the next rep.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Jump Squat
+        </div>
+        <div class="item item-text-wrap">
+          Stand with feet shoulder width apart and squat down until your thighs are about parallel to the floor but no deeper. Jump as high as you can. Land with soft knees and begin the next rep.
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Barbell Hip Thrust
+        </div>
+        <div class="item item-text-wrap">
+          Rest your upper back on a bench and sit on the floor with legs extended. Roll a loaded barbell up your thighs until the bar sits on your lap (you may want to place a towel or mat on your hips or attach a pad to the bar for comfort). Brace your abs and drive your heels into the floor to extend your hips, raising them until your thighs and upper body are parallel to the floor.
+        </div>
+      </div>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

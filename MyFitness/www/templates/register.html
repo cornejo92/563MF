@@ -1,0 +1,55 @@
+<ion-view view-title="{{'REGISTER_PAGE.REGISTER' | translate}}">
+    <ion-nav-bar class = "bar-calm">
+        <ion-nav-back-button side = "left">
+        </ion-nav-back-button>
+      </ion-nav-bar>
+    <ion-content class="padding">
+        <form name="registerForm" novalidate ng-submit="signupForm(registerForm)">
+            <div class="list">
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.email.$invalid && registerForm.$submitted}">
+                    <input name="email" type="email" placeholder="{{'REGISTER_PAGE.EMAIL' | translate}}" ng-model="user.email" required>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.username.$invalid && registerForm.$submitted}">
+                    <input name="username" type="text" placeholder="{{'REGISTER_PAGE.USERNAME' | translate}}" ng-model="user.username" required>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.firstName.$invalid && registerForm.$submitted}">
+                    <input name="firstName" type="text" placeholder="{{'REGISTER_PAGE.FIRST_NAME' | translate}}" ng-model="user.firstName" required>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.lastName.$invalid && registerForm.$submitted}">
+                    <input name="lastName" type="text" placeholder="{{'REGISTER_PAGE.LAST_NAME' | translate}}" ng-model="user.lastName" required>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.age.$invalid && registerForm.$submitted}">
+                    <input name="age" type="number" placeholder="{{'REGISTER_PAGE.AGE' | translate}}" ng-model="user.age">
+                </label>
+                <!---- <label class="item item-input" ng-class="{ 'has-errors' : registerForm.sex.$invalid && registerForm.$submitted}">
+                    <input name="sex" type="text" placeholder="{{'REGISTER_PAGE.SEX' | translate}}" ng-model="user.sex">
+                    
+                </label> ---->
+                <label class = "item item-input item-select">
+                    <div class="input-label">
+                      Sex
+                    </div>
+                    <select ng-model = "user.sex">
+                      <option value = "true">Male</option>
+                      <option selected value = "false">Female</option>
+                    </select>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.height.$invalid && registerForm.$submitted}">
+                    <input name="height" type="number" placeholder="{{'REGISTER_PAGE.HEIGHT' | translate}}" ng-model="user.height">
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.weight.$invalid && registerForm.$submitted}">
+                    <input name="weight" type="number" placeholder="{{'REGISTER_PAGE.WEIGHT' | translate}}" ng-model="user.weight">
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.password.$invalid && registerForm.$submitted}">
+                    <input name="password" type="password" placeholder="{{'REGISTER_PAGE.PASSWORD' | translate}}" ng-model="user.password" required>
+                </label>
+                <label class="item item-input" ng-class="{ 'has-errors' : registerForm.repeatPassword.$invalid && registerForm.$submitted}">
+                    <input name="repeatPassword" type="password" placeholder="{{'REGISTER_PAGE.REPEAT_PASSWORD' | translate}}" ng-model="repeatPassword.password" required>
+                </label>
+            </div>
+            <button type="submit" class="button button-block button-positive">
+                {{'REGISTER_PAGE.SIGN_UP' | translate}}
+            </button>
+        </form>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+        "LANG": "zh-cn",
+        "TITLE": "我的結果",
+        "MENU": "菜單",
+        "TEST": "測試 ",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "我的健身",
+        "LOGIN": "登錄",
+        "REGISTER": "寄存器"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "菜單",
+        "LOGOUT": "登出",
+        "TAKE_TEST": "帶測試",
+        "MY_RESULTS": "我的結果"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "登錄",
+        "REMEMBER_ME": "記住我?",
+        "EMAIL": "電子郵件",
+        "PASSWORD": "密碼"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "菜單",
+        "OPTION_A": "選項A",
+        "OPTION_B": "方案B",
+        "A": "一個",
+        "B": "B的"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "寄存器",
+        "EMAIL": "電子郵件",
+        "USERNAME": "用戶名",
+        "FIRST_NAME": "名字",
+        "LAST_NAME": "姓",
+        "COMPANY_OPTIONAL": "公司 (可選)",
+        "AGE": "年齡",
+        "SEX": "性別",
+        "HEIGHT": "高度",
+        "WEIGHT": "重量",
+        "PASSWORD": "密碼",
+        "REPEAT_PASSWORD": "重複密碼",
+        "SIGN_UP": "註冊"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "菜單",
+        "RESULTS": "結果"
+    },
+    "ERRORS": {
+        "ERROR": "錯誤",
+        "GENERAL": "出事了，再試一次。 ",
+        "NULL": "與服務器的連接失敗，請檢查您的網絡連接，稍後再試。 ",
+        "LOGIN_401": "用戶名或密碼錯誤。",
+        "422": "電子郵件已被使用。",
+        "SIGN_UP_401": "一個或多個字段無效",
+        "LOG_OUT": "在這一刻無法退出，再試一次。",
+        "PASSWORDS": "密碼必須相符。"
+    },
+    "LABELS": {
+                "HOME": "家",
+        "CALCULATORS": "計算器",
+        "WORKOUTS": "演習",
+        "DAILYLOG": "每天的日誌",
+        "SETTINGS": "設置"
+    }
+}

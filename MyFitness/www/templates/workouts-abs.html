@@ -1,0 +1,97 @@
+<ion-view view-title="{{'LABELS.WORKOUTS' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side = "left">
+      <button class = "button icon ion-ios-arrow-back" ui-sref="workouts">
+        
+      </button>
+    </ion-nav-buttons>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-content class="padding">
+      <div class="card">
+        <div class="item item-divider">
+          Hanging Knee Raise
+        </div>
+        <div class="item item-text-wrap">
+          Hang fully extended from a chin-up bar, palms facing out and your hands a little farther than shoulder-width apart. Raise your knees toward your chest, curling your pelvis upward at the end. Make it tougher by keeping your legs straight instead of bending your knees.
+
+          Targets: Lower abdominals
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Straight Leg Raise
+        </div>
+        <div class="item item-text-wrap">
+          Lie face-up on a bench with your glutes at its edge. Extend your legs, keeping them parallel to the floor. Grasp the sides of the bench, or near your hips. Keeping your legs as straight as possible, raise them slowly until you're in a jackknife position. Your head and shoulders shouldn't move. Make sure your abs do all the work. Unfold your body slowly, lowering your legs back to the start position.
+
+          Targets: Lower abdominals
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Weighted One-Sided Crunch
+        </div>
+        <div class="item item-text-wrap">
+          Lie with your knees bent and feet flat on the floor. Hold a dumbbell by your left shoulder with both hands. Curl your torso up and rotate to the right. Lower yourself; finish the set, then repeat, placing the dumbbell next to your right shoulder.
+
+          Targets: Obliques
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Standing Torso Rotation
+        </div>
+        <div class="item item-text-wrap">
+          Stand with your feet shoulder-width apart, knees soft. Hold dumbbell with both hands, extending your arms straight out in front of you at about shoulder height. Contract your abs and twist to you right as far as comfortably possible, keeping your arms straight as you go. Reverse the motion by rotating all the way to your left to complete one rep.
+
+          Targets: Obliques
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Oblique Hanging Leg Raise
+        </div>
+        <div class="item item-text-wrap">
+          Grasp a chin-up bar with an overhand grip and hang from it at arm's length, with your knees bent. Keep your knees bent and lift your right hip toward your right armpit until your lower legs are nearly parallel to the floor. Pause, then return to the starting position, and lift your left hip toward your right armpit.
+
+          Targets: Obliques
+        </div>
+      </div>
+      <div class="card">
+        <div class="item item-divider">
+          Incline Reverse Crunch
+        </div>
+        <div class="item item-text-wrap">
+          Lie on an incline board with your hips lower than your head. Grab the bar behind your head for support, or simply grasp the sides of the bench. Bend your knees slightly and hold your feet together. Raise your knees to your chest by lifting your hips and crunching them inward. Pause, and lower your hips back to start.
+
+          Targets: Lower abdominals
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

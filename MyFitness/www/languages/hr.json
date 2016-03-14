@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+         "LANG": "hr-hr",
+        "TITLE": "Moji rezultati",
+        "MENU": "Izbornik",
+        "TEST": "Test",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "mojFitness",
+        "LOGIN": "Prijaviti se",
+        "REGISTER": "Registrirajte se"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "Izbornik",
+        "LOGOUT": "Odjaviti se",
+        "TAKE_TEST": " Uzmi test",
+        "MY_RESULTS": "Moji rezultati"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Prijaviti se",
+        "REMEMBER_ME": "Zapamti me?",
+        "EMAIL":  "E-mail",
+        "PASSWORD": "Lozinka"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "Izbornik",
+        "OPTION_A": "Opcija A",
+        "OPTION_B": "Opcija B",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "Registrirajte se",
+        "EMAIL": "E-mail",
+        "USERNAME": "Korisničko ime",
+        "FIRST_NAME": "Ime",
+        "LAST_NAME": "Prezime",
+        "COMPANY_OPTIONAL": "Društvo (po izboru)",
+        "AGE": "Godine",
+        "SEX": "Seks",
+        "HEIGHT": "Visina",
+        "WEIGHT": "Težina",
+        "PASSWORD": "Lozinka",
+        "REPEAT_PASSWORD": "Ponovi lozinku",
+        "SIGN_UP": "Prijavi se"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "Izbornik",
+        "RESULTS": "Rezultati"
+    },
+    "ERRORS": {
+        "ERROR": "Greška",
+        "GENERAL": "Nešto nije u redu , pokušajte ponovno.",
+        "NULL": "Veza s poslužiteljem nije bila uspješna , provjerite internetsku vezu i pokušajte ponovo kasnije.",
+        "LOGIN_401": "Netočno korisničko ime ili lozinka.",
+        "422": "E već zauzet.",
+        "SIGN_UP_401": "Jedan ili više polja su nevažeći",
+        "LOG_OUT": "Ne mogu odjaviti u ovom trenutku , pokušajte ponovno.",
+        "PASSWORDS": "Lozinke se moraju podudarati."
+    },
+    "LABELS": {
+               "HOME": "Dom",
+        "CALCULATORS": "Kalkulatori",
+        "WORKOUTS": "Vježbe",
+        "DAILYLOG": "Dnevni Prijava",
+        "SETTINGS": "Postavke"
+    }
+}

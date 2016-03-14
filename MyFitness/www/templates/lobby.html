@@ -1,0 +1,63 @@
+<ion-view view-title="{{'LANDING_PAGE.TITLE' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <div class = "center" id = "homeCaloriesRemaining" >
+            Goal - Actual = Remaining
+            {{goalCalories}} - {{actualCalories}} = {{remainingCalories}}
+        </div>
+        <div class="card center">
+          <div class="item item-divider">
+            Calorie Tracker
+          </div>
+          <div class="item item-text-wrap">
+            <div class = "homeChart" ng-controller = "GraphController">
+                <canvas id="myChart" width="25" height="25" class = "homeChart">
+                </canvas>
+            </div>
+            <p class = "pieStatsHome"> 
+                Protein: {{proteinPercentage}}% <br>
+                Fat: {{fatPercentage}}% <br>
+                Carbs: {{carbsPercentage}}%
+            </p>
+          </div>
+        </div>
+        <div class="card center">
+            <div class="item item-divider">
+                Motivation
+            </div>
+            <div class="item item-text-wrap">
+                <p id = "motivationStats"> 
+                    Starting Stats<br>
+                    150lbs 25% Body Fat <br>
+                    Carbs: {{carbsPercentage}}%
+                </p>
+                <p id = "homeGoalPicture">
+                    <img src = "https://pbs.twimg.com/profile_images/531608831688974337/gJXFEKIG.jpeg" width= "100px">
+                </p>
+          </div>
+        </div>
+    </ion-content>
+    <canvas id="myBar" width="100%" height="20"></canvas>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

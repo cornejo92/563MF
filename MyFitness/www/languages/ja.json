@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+         "LANG": "ja-jp",
+        "TITLE": "「私の結果」",
+        "MENU": "メニュー",
+        "TEST": "テスト",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "私のフィットネス",
+        "LOGIN": "ログイン",
+        "REGISTER": "登録"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "メニュー",
+        "LOGOUT": "ログアウト",
+        "TAKE_TEST": "「テストを取ります」",
+        "MY_RESULTS": "「私の結果」"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "ログイン",
+        "REMEMBER_ME": "私を覚えてますか？",
+        "EMAIL": "Eメール",
+        "PASSWORD": "パスワード"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "メニュー",
+        "OPTION_A": "「オプションA 」",
+        "OPTION_B":  "「オプションB 」",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "登録",
+        "EMAIL": "Eメール",
+        "USERNAME": "ユーザー名",
+        "FIRST_NAME": "ファーストネーム",
+        "LAST_NAME": "苗字",
+        "COMPANY_OPTIONAL": "「会社（オプション）」",
+        "AGE": "年齢",
+        "SEX": "セックス",
+        "HEIGHT": "高さ",
+        "WEIGHT": "重量",
+        "PASSWORD":  "パスワード",
+        "REPEAT_PASSWORD": "パスワードを再度入力してください",
+        "SIGN_UP": "サインアップ"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "メニュー",
+        "RESULTS": "結果"
+    },
+    "ERRORS": {
+        "ERROR":  "エラー",
+        "GENERAL": "「何かが間違っていた、もう一度やり直してください。 」 、",
+        "NULL": "「サーバーとの接続には、インターネット接続を確認してから再度試して、失敗しました。 」",
+        "LOGIN_401": "ユーザーネームまたはパスワードが違います。",
+        "422": "「電子メールは既に使用されています。 」",
+        "SIGN_UP_401": "「一つ以上のフィールドが無効です」",
+        "LOG_OUT": "「この時点でログアウトできませんでしたして、もう一度やり直してください。 」",
+        "PASSWORDS": "パスワードが一致する必要があります。"
+    },
+    "LABELS": {
+                "HOME": "ホーム",
+        "CALCULATORS": "電卓",
+        "WORKOUTS": "演習",
+        "DAILYLOG": "毎日のログ",
+        "SETTINGS": "設定"
+    }
+}

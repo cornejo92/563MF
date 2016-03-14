@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+         "LANG": "es-es",
+        "TITLE": "Mis Resultados",
+        "MENU": "Menu",
+        "TEST": "Examen ",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "miGimnasio",
+        "LOGIN": "Entrar",
+        "REGISTER": "Registrar"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "Menu",
+        "LOGOUT": "Salir",
+        "TAKE_TEST": "Empezar Examen",
+        "MY_RESULTS": "Mis Resultados"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Entrar",
+        "REMEMBER_ME": "Recordarme?",
+        "PASSWORD": "Contrasena",
+        "EMAIL": "Correo Electronico"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "Menu",
+        "OPTION_A": "Opcion A",
+        "OPTION_B": "Opcion B",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "Registrar",
+        "EMAIL": "Correo Electronico",
+        "USERNAME": "Nombre de Usario"
+        "FIRST_NAME": "Nombre",
+        "LAST_NAME": "Apellido",
+        "COMPANY_OPTIONAL": "Empreza (Opcional)",
+        "AGE": "Años",
+        "SEX": "Sexo",
+        "HEIGHT": "Altura",
+        "WEIGHT": "Peso",
+        "PASSWORD": "Contrasena",
+        "REPEAT_PASSWORD": "Repite Contrasena",
+        "SIGN_UP": "Iniciar"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "Menu",
+        "RESULTS": "Resultados"
+    },
+    "ERRORS": {
+        "ERROR": "Error",
+        "GENERAL": "Algo salió mal , inténtelo de nuevo.",
+        "NULL": "La conexión con el servidor se realiza correctamente, compruebe su conexión a Internet y vuelve a intentarlo más tarde.",
+        "LOGIN_401": "Nombre de usuario o contraseña incorrecta.",
+        "422": "El correo electrónico ya está en uso.",
+        "SIGN_UP_401": "Uno o más campos no son válidos.",
+        "LOG_OUT": "No se pudo cerrar la sesión en este momento, inténtelo de nuevo.",
+        "PASSWORDS": "Las contraseñas deben coincidir."
+    },
+    "LABELS": {
+                "HOME": "Casa",
+        "CALCULATORS": "Calculadoras",
+        "WORKOUTS": "Entrenamientos",
+        "DAILYLOG": "Registro Diario",
+        "SETTINGS": "Ajustes"
+    }
+}

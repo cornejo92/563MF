@@ -1,0 +1,71 @@
+{ 
+    "HISTORY_PAGE": {
+        "LANG": "de-de",
+        "TITLE": "Meine Ergebnisse",
+        "MENU": "Menü",
+        "TEST": "Prüfung ",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "meineFitness",
+        "LOGIN": "Anmeldung",
+        "REGISTER": "Neu registrieren"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "Menü",
+        "LOGOUT": "Ausloggen",
+        "TAKE_TEST": "Einen Test schreiben",
+        "MY_RESULTS": "Meine Ergebnisse"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Anmeldung",
+        "REMEMBER_ME": "Erinnere dich an mich?",
+        "EMAIL": "Email",
+        "PASSWORD": "Passwort"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "Menü",
+        "OPTION_A": "Option A",
+        "OPTION_B": "Option B",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "Neu registrieren",
+        "USERNAME": "Benutzername",
+        "EMAIL": "Email",
+        "FIRST_NAME": "Vorname",
+        "LAST_NAME": "Familienname, Nachname",
+        "COMPANY_OPTIONAL": "Firma (Optional)",
+        "AGE": "Alter",
+        "SEX": "Sex",
+        "HEIGHT": "Höhe",
+        "WEIGHT": "Gewicht",
+        "PASSWORD": "Passwort",
+        "REPEAT_PASSWORD": "Passwort wiederholen",
+        "SIGN_UP": "Anmelden"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "Menü",
+        "RESULTS": "Ergebnisse"
+    },
+    "ERRORS": {
+        "ERROR": "Fehler",
+        "GENERAL": "Es ist ein Fehler , versuchen Sie es erneut.",
+        "NULL": "Die Verbindung mit dem Server nicht erfolgreich war, überprüfen Sie Ihre Internetverbindung und versuchen Sie es später erneut.",
+        "LOGIN_401": "Falscher Benutzername oder Passwort.",
+        "422": "Die E-Mail ist bereits vergeben.",
+        "SIGN_UP_401": "Ein oder mehrere Felder sind ungültig",
+        "LOG_OUT": "Konnte nicht in diesem Moment abzumelden, versuchen Sie es erneut.",
+        "PASSWORDS": "Die Passwörter müssen übereinstimmen."
+    },
+    "LABELS": {
+        "HOME": "Zuhause",
+        "CALCULATORS": "Taschenrechner",
+        "WORKOUTS": "Übungen",
+        "DAILYLOG": "Log",
+        "SETTINGS": "Einstellungen"
+    }
+}

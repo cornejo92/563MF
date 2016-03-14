@@ -1,0 +1,46 @@
+<ion-view view-title="{{'LABELS.ADD' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ui-sref="settings">
+        </button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <form class="list" name = "strengthForm" ng-controller = "AddItemsCtrl" novalidate ng-submit = "submitStrengthForm()">
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Exercise</span>
+            <input type="text" placeholder="Exercise" ng-model = "defaultStrengthForm.name">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Body Part</span>
+            <input type="text" placeholder="Body Part" ng-model = "defaultStrengthForm.bodypart">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Sets</span>
+            <input type="text" placeholder="Sets" ng-model = "defaultStrengthForm.sets">
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Reps</span>
+            <input type="text" placeholder="Reps" ng-model = "defaultStrengthForm.reps">
+          </label>
+          <input class = "button button-bar button-calm center" type = "submit" placeholder = "Submit" ng-model = "defaultStrengthForm.submit">
+        </form>
+    </ion-content>
+    <ion-tabs class="no-animate tabs-calm tabs-icon-top" ng-controller="LandingCtrl">
+  
+            <ion-tab title="{{&apos;LABELS.HOME&apos; | translate}}" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="lobby">
+              <!-- Tab 1 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.DAILYLOG&apos; | translate}}" icon-on="ion-ios-paper" icon-off="ion-ios-paper-outline" ui-sref="dailyLog">
+              <!-- Tab 2 content -->
+            </ion-tab>
+            <ion-tab icon-off="{{addIcon}}" ng-click="openPopover($event)">
+              <!-- Tab 3 content -->
+            </ion-tab>
+            <ion-tab title="{{&apos;LABELS.CALCULATORS&apos; | translate}}" icon-on="ion-ios-calculator" icon-off="ion-ios-calculator-outline" ui-sref="calculators">
+              <!-- Tab 4 content -->
+            </ion-tab>
+          
+            <ion-tab title="{{&apos;LABELS.WORKOUTS&apos; | translate}}" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="workouts">
+              <!-- Tab 5 content -->
+            </ion-tab>
+        </ion-tabs>
+</ion-view>

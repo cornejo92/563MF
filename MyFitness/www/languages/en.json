@@ -1,0 +1,77 @@
+{ 
+    "HISTORY_PAGE": {
+        "LANG": "en-us",
+        "TITLE": "My Results",
+        "MENU": "Menu",
+        "TEST": "Test ",
+        "CREATED_DATE": "{{test.createDate | date:'fullDate'}}",
+        "CREATED_TIME": "{{test.createDate | date:'shortTime'}}"
+    },
+    "LANDING_PAGE": {
+        "TITLE": "myFitness",
+        "LOGIN": "Login",
+        "REGISTER": "Register"
+    },
+    "LOBBY_PAGE": {
+        "MENU": "Menu",
+        "LOGOUT": "Log Out",
+        "TAKE_TEST": "Take Test",
+        "MY_RESULTS": "My Results"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Login",
+        "REMEMBER_ME": "Remember Me?",
+        "EMAIL": "Email",
+        "PASSWORD": "Password"
+        
+    },
+    "QUESTION_PAGE": {
+        "MENU": "Menu",
+        "OPTION_A": "Option A",
+        "OPTION_B": "Option B",
+        "A": "A",
+        "B": "B"
+    },
+    "REGISTER_PAGE": {
+        "REGISTER": "Register",
+        "EMAIL": "Email",
+        "USERNAME": "Username",
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "COMPANY_OPTIONAL": "Company (Optional)",
+        "AGE": "Age",
+        "SEX": "Sex",
+        "HEIGHT": "Height",
+        "WEIGHT": "Weight",
+        "PASSWORD": "Password",
+        "REPEAT_PASSWORD": "Repeat Password",
+        "SIGN_UP": "Sign Up"
+    },
+    "RESULTS_PAGE": {
+        "MENU": "Menu",
+        "RESULTS": "Results"
+    },
+    "ERRORS": {
+        "ERROR": "Error",
+        "WARNING": "Warning!",
+        "COMPLETE_ENTRY": "Are you sure you want to complete your entries for today?",
+        "GENERAL": "Something went wrong, try again.",
+        "NULL": "The connection with the server was unsuccessful, check your internet connection and try again later.",
+        "LOGIN_401": "Incorrect username or password.",
+        "422": "The email is already taken.",
+        "SIGN_UP_401": "One or more fields are invalid",
+        "LOG_OUT": "Could not logout at this moment, try again.",
+        "PASSWORDS": "Passwords must match."
+    },
+    "LABELS": {
+        "HOME": "Home",
+        "CALCULATORS": "Calculators",
+        "WORKOUTS": "Workouts",
+        "DAILYLOG": "Daily Log",
+        "SETTINGS": "Settings",
+        "PROTEIN": "Protein",
+        "FAT": "Fat",
+        "CARBS": "Carbs",
+        "ADD": "Add"
+    }
+}
