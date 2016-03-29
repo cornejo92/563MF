@@ -52,6 +52,11 @@ Results
 	"accommodating": "number"
 	"createDate": "date"
 Screenshots:
+<img src = "/NewGitHubImages/landing.png" width = "120px"> <img src = "/NewGitHubImages/login.png" width = "120px"> <img src = "/NewGitHubImages/register.png" width = "120px">
+<img src = "/NewGitHubImages/lobby.png" width = "120px"> <img src = "/NewGitHubImages/daily_log.png" width = "120px"> <img src = "/NewGitHubImages/daily_log_entries.png" width = "120px">
+<img src = "/NewGitHubImages/calculators.png" width = "120px"> <img src = "/NewGitHubImages/workouts.png" width = "120px"> <img src = "/NewGitHubImages/workouts_extended.png" width = "120px">
+<img src = "/NewGitHubImages/graph.png" width = "120px"> <img src = "/NewGitHubImages/alerts.png" width = "120px"> <img src = "/NewGitHubImages/database_alert.png" width = "120px">
+<img src = "/NewGitHubImages/popup.png" width = "120px"> <img src = "/NewGitHubImages/add_meals.png" width = "120px">
 ![screenshots](/NewGitHubImages/landing.png?raw=true "Landing") ![screenshots](/NewGitHubImages/login.png?raw=true "Login") ![screenshots](/NewGitHubImages/register.png?raw=true "Register") 
 ![screenshots](/NewGitHubImages/lobby.png?raw=true "Lobby") ![screenshots](/NewGitHubImages/daily_log.png?raw=true "Daily Log") ![screenshots](/NewGitHubImages/daily_log_entries.png?raw=true "Entries")
 ![screenshots](/NewGitHubImages/calculators.png?raw=true "Calculators") ![screenshots](/NewGitHubImages/workouts.png?raw=true "Workouts") ![screenshots](/NewGitHubImages/workouts_extended.png?raw=true "Workouts Extended") 
