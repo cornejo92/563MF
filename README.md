@@ -52,12 +52,8 @@ Results
 	"accommodating": "number"
 	"createDate": "date"
 Screenshots:
-![screenshots](/NewGitHubImages/landing.png?raw=true =250x "Landing") ![screenshots](/NewGitHubImages/login.png?raw=true =250x "Login")
-![screenshots](/NewGitHubImages/register.png?raw=true =250x "Register") ![screenshots](/NewGitHubImages/lobby.png?raw=true =250x "Lobby")
-![screenshots](/NewGitHubImages/daily_log.png?raw=true =250x "Daily Log") ![screenshots](/NewGitHubImages/daily_log_entries.png?raw=true =250x "Entries")
-![screenshots](/NewGitHubImages/calculators.png?raw=true =250x "Calculators") ![screenshots](/NewGitHubImages/workouts.png?raw=true =250x "Workouts")
-![screenshots](/NewGitHubImages/workouts_extended.png?raw=true "Workouts Extended") ![screenshots](/NewGitHubImages/graph.png?raw=true "Graph")
-![screenshots](/NewGitHubImages/alerts.png?raw=true "Complete Log")
-![screenshots](/NewGitHubImages/database_alert.png?raw=true "Database Alert") 
-![screenshots](/NewGitHubImages/popup.png?raw=true "Popup")
-![screenshots](/NewGitHubImages/add_meals.png?raw=true "Add Meals")
+![screenshots](/NewGitHubImages/landing.png?raw=true "Landing") ![screenshots](/NewGitHubImages/login.png?raw=true "Login") ![screenshots](/NewGitHubImages/register.png?raw=true "Register") 
+![screenshots](/NewGitHubImages/lobby.png?raw=true "Lobby") ![screenshots](/NewGitHubImages/daily_log.png?raw=true "Daily Log") ![screenshots](/NewGitHubImages/daily_log_entries.png?raw=true "Entries")
+![screenshots](/NewGitHubImages/calculators.png?raw=true "Calculators") ![screenshots](/NewGitHubImages/workouts.png?raw=true "Workouts") ![screenshots](/NewGitHubImages/workouts_extended.png?raw=true "Workouts Extended") 
+![screenshots](/NewGitHubImages/graph.png?raw=true "Graph") ![screenshots](/NewGitHubImages/alerts.png?raw=true "Complete Log")  ![screenshots](/NewGitHubImages/database_alert.png?raw=true "Database Alert")  
+![screenshots](/NewGitHubImages/popup.png?raw=true "Popup") ![screenshots](/NewGitHubImages/add_meals.png?raw=true "Add Meals")
