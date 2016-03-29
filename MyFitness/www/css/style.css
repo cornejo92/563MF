@@ -148,3 +148,7 @@
      border-width: 1px !important;
      
  }
+ img[alt="screenshots"]{
+     max-width: 100px;
+     display: block;
+ }
