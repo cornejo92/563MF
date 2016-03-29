@@ -1,22 +1,3 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team# 563MF
-
 myFitness Presentation
 What is the problem that exists?
 Sometimes when starting a workout plan, or diet plan, it can become tedious writing down, and remembering what you need to eat, and when you need to eat. It can also be hard to keep track of macro nutrients, and even micro nutrients. Sometimes it gets hard to be consistent without seeing your progress or charts & graphs.
@@ -70,3 +51,8 @@ Results
 	"avoiding": "number"
 	"accommodating": "number"
 	"createDate": "date"
+Screenshots:
+![Login](/NewGitHubImages/landing.png?raw=true "Landing") ![Login](/NewGitHubImages/login.png?raw=true "Login")
+![Register](/NewGitHubImages/register.png?raw=true "Register") ![Lobby](/NewGitHubImages/lobby.png?raw=true "Lobby")
+![Daily Log](/NewGitHubImages/daily_log.png?raw=true "Daily Log") ![Daily Log Entries](/NewGitHubImages/daily_log_entries.png?raw=true "Entries")
+![Calculators](/relative/NewGitHubImages/calculators.png?raw=true "Calculators")

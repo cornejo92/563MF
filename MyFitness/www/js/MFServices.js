@@ -77,7 +77,7 @@ angular.module('MFServicesModule', [])
 }])
 .service('MFUserService', function(){
     var service = this;
-    
+    var userInfo = [];
     service.saveUser = function(){
         
     };

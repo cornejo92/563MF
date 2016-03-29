@@ -310,6 +310,7 @@ function($scope, $state, $ionicHistory, UserService, $window, SSFAlertsService, 
             if(response.status === 204) {
                 delete $window.localStorage['token'];
                 delete $window.localStorage['userID'];
+                delete $window.localStorage['username'];
                 $ionicHistory.nextViewOptions({
                   historyRoot: true,
                   disableBack: true
@@ -318,8 +319,6 @@ function($scope, $state, $ionicHistory, UserService, $window, SSFAlertsService, 
             } else {
                  SSFAlertsService.showAlert("ERRORS.ERROR", "ERRORS.LOG_OUT");
             }
-        }, function(response) {
-            SSFAlertsService.showAlert("ERRORS.ERROR", "ERRORS.LOG_OUT");
         });
     };
     $scope.testConsoleLog = function(){
@@ -476,7 +475,7 @@ function($scope, MFSaveService, $ionicTabsDelegate, $ionicNavBarDelegate, $windo
         var confirmPopup = $ionicPopup.confirm({
          title: "Warning!",
          template: "Are you sure you want to complete your entries for today?"
-      });
+        });
         confirmPopup.then(function(response) {
             if (response == true) {
                  //User answered OK
@@ -532,5 +531,9 @@ function($scope, MFSaveService, $ionicTabsDelegate, $ionicNavBarDelegate, $windo
             }
         });
     }
+}])
+.controller('UserProfileCtrl', ['$scope', '$state', '$ionicHistory', 'UserService', '$window', 'SSFAlertsService', '$ionicTabsDelegate', '$ionicNavBarDelegate', '$ionicPopover', 
+function($scope, $state, $ionicHistory, UserService, $window, SSFAlertsService, $ionicTabsDelegate, $ionicNavBarDelegate, $ionicPopover){
+    
 }])
 ;

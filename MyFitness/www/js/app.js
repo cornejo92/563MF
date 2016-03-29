@@ -124,6 +124,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'SSFAlerts', 'pascalp
     url: '/test',
     template: '<ion-nav-view></ion-nav-view>'
   })
+  .state('user-profile', {
+    url: '/user-profile',
+    templateUrl: 'templates/user-profile.html',
+    controller: 'UserProfileCtrl'
+  })
+  .state('user-profile-settings', {
+    url: '/user-profile-settings',
+    templateUrl: 'templates/user-profile-settings.html',
+    controller: 'UserProfileCtrl'
+  })
   /*.state('test.detail', {
     url: '/question:testID',
     templateUrl: 'templates/question.html',

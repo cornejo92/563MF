@@ -129,3 +129,22 @@
     background-color: #11c1f3;
     color: #fff;
 }
+
+
+.SSF {
+    background-color: #EB8137 !important;
+}
+.avatar {
+    width: 95px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 100px;
+    margin: 15px 0;
+    display: block;
+ }
+ .outline-grid {
+     border-style: solid !important;
+     border-color: gray !important;
+     border-width: 1px !important;
+     
+ }
